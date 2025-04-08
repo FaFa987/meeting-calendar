@@ -1,11 +1,12 @@
-import React from 'react';
+import Navbar from "./Navbar.jsx";
+
 
 export const App = () => {
 
 
   return (
     <>
-    Hello again
+    <Navbar />
     </>
   );
 };
