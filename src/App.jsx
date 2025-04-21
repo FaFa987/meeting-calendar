@@ -1,18 +1,15 @@
-import RouterDemo from "./RouterDemo";
-
+import InvitationList from "./InvitationList";
+import ToggleButton from "./ToggleButton";
 
 export const App = () => {
-  return (
-    <>
+  return <>
 
 
-      <RouterDemo />
-      
-      <InvitationForm />
-      
-      <InvitationList/>
-      
-      
-    </>
-  );
+  <InvitationList/>
+  <ToggleButton/>
+
+
+
+
+  </>;
 };

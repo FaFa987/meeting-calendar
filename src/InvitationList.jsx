@@ -11,6 +11,7 @@ const InvitationList = () => {
     fetchAllInvitations();
   }, []);
 
+
   const fetchAllInvitations = async () => {
     console.log("Step1: Starting to fetch invitations...");
 
