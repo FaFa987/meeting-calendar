@@ -1,16 +1,13 @@
-import RouterDemo from "./RouterDemo";
-import Dashboard from "./Dashboard";
-import ScheduleForm from "./ScheduleForm";
-import ListOfMeetings from "./ListOfMeetings";
+import React from 'react';
+import Dashboard from './components/Dashboard';
+import './App.css';
 
-export const App = () => {
-  return <>
+function App() {
+  return (
+    <div className="app">
+      <Dashboard />
+    </div>
+  );
+}
 
-
-  <RouterDemo/>
-  <Dashboard/>
-  <ScheduleForm/>
-  
-
-  </>;
-};
+export default App;
