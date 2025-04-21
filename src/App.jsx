@@ -1,15 +1,16 @@
-import InvitationList from "./InvitationList";
-import ToggleButton from "./ToggleButton";
+import RouterDemo from "./RouterDemo";
+import Dashboard from "./Dashboard";
+import ScheduleForm from "./ScheduleForm";
+import ListOfMeetings from "./ListOfMeetings";
 
 export const App = () => {
   return <>
 
 
-  <InvitationList/>
-  <ToggleButton/>
-
-
-
+  <RouterDemo/>
+  <Dashboard/>
+  <ScheduleForm/>
+  
 
   </>;
 };
