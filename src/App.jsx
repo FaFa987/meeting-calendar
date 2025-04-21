@@ -1,13 +1,16 @@
-import React from 'react';
-import Dashboard from './components/Dashboard';
-import './App.css';
+import InvitationList from "./InvitationList";
+import Dashboard from "./Dashboard";
+import RouterDemo from "./RouterDemo";
 
-function App() {
-  return (
-    <div className="app">
-      <Dashboard />
-    </div>
-  );
-}
+export const App = () => {
+  return <>
 
-export default App;
+<div className="app">
+
+  <RouterDemo/>
+  <Dashboard/>
+  <InvitationList/>
+</div>
+  
+  </>;
+};
