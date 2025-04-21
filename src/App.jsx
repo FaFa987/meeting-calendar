@@ -1,12 +1,18 @@
-import Navbar from "./Navbar.jsx";
+import RouterDemo from "./RouterDemo";
 
 
 export const App = () => {
-
-
   return (
     <>
-    <Navbar />
+
+
+      <RouterDemo />
+      
+      <InvitationForm />
+      
+      <InvitationList/>
+      
+      
     </>
   );
 };
